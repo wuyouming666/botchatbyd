@@ -8,21 +8,7 @@ type Message = {
   // 根据实际需要添加其他属性
 }
 
-const BotHelloWithImg: Message[] = [
-  {
-    role: "assistant",
-    content: "你好，我是细狗！",
-    date: "",
-  },
-  {
-    role: "assistant",
-    content: `
-      <img src="yourImage.jpg" alt="yourImage" style="max-width: 200px;">
-      <p>这是一张美丽的图片</p>
-    `,
-    date: "",
-  },
-];
+
 
 
 const cn = {
@@ -34,7 +20,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 智慧小明 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -159,7 +145,7 @@ const cn = {
 
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！靓仔 如果你觉得不错的话可以加微 Wym-888888进群定时更新授权码",
+    BotHello: "你好！靓仔 如果你觉得不错的话可以扫描左边的二维码进群不定时更新授权码",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>

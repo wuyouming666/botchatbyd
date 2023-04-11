@@ -212,9 +212,8 @@ export function Settings(props: { closeSettings: () => void }) {
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
-              <Link href={UPDATE_URL} target="_blank" className="link">
-                {Locale.Settings.Update.GoToUpdate}
-              </Link>
+              <a href="https://jq.qq.com/?_wv=1027&k=FW3MzmSe" target="_blank" rel="noopener noreferrer" className="link">Link Text</a>
+
             ) : (
               <IconButton
                 icon={<ResetIcon></ResetIcon>}

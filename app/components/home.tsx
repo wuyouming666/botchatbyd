@@ -115,10 +115,11 @@ function _Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
-          <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
-          </div>
+          <div className={styles["sidebar-title"]}>智慧小明</div>
+          <div className={styles["sidebar-sub-title"]} style={{ display: "flex" }}>
+   <img src="666.png" alt="喜欢的话请我喝杯冰阔落呗！" style={{ width: "130px", height: "130px" }} />
+   <img src="qun.png" alt="进群" style={{ width: "130px", height: "130px" }}  />
+</div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
