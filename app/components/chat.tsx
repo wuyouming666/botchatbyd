@@ -358,7 +358,7 @@ export function Chat(props: {
       setPromptHints([]);
     } else if (!chatStore.config.disablePromptHint && n < SEARCH_TEXT_LIMIT) {
       // check if need to trigger auto completion
-      if (text.startsWith("/")) {
+      if (text.startsWith("/担当")) {
         let searchText = text.slice(1);
         if (searchText.length === 0) {
           searchText = " ";
